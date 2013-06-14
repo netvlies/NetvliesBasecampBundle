@@ -1,6 +1,8 @@
 NetvliesBasecampBundle
 ----------------------
 
+[![knpbundles.com](http://knpbundles.com/netvlies/NetvliesBasecampBundle/badge-short)](http://knpbundles.com/netvlies/NetvliesBasecampBundle)
+
 Symfony2 bundle around the basecamp-php client.
 
 Installation
@@ -94,7 +96,7 @@ Now register this as a service:
 services:
     acme.basecamp.oauth_credentials_provider:
         class: Acme\Bundle\MainBundle\OAuth\BasecampCredentialsProvider
-        arguments: @security.context
+        arguments: ["@security.context"]
 ```
 
 #### Configure the bundle to use your provider
