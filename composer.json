@@ -1,0 +1,24 @@
+{
+    "name": "netvlies/basecamp-bundle",
+    "description": "Bundle around the Basecamp API client",
+    "type": "symfony-bundle",
+    "keywords": ["basecamp", "37signals", "api"],
+    "homepage": "https://github.com/netvlies/NetvliesBasecampBundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Richard van den Brand",
+            "email": "richard@vandenbrand.org"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "netvlies/basecamp-php": ">=1.0"
+    },
+    "target-dir": "Netvlies/Bundle/BasecampBundle",
+    "autoload": {
+        "psr-0": {
+            "Netvlies\\Bundle\\BasecampBundle": ""
+        }
+    }
+}
