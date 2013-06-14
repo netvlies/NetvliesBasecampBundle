@@ -3,7 +3,7 @@ NetvliesBasecampBundle
 
 [![knpbundles.com](http://knpbundles.com/netvlies/NetvliesBasecampBundle/badge-short)](http://knpbundles.com/netvlies/NetvliesBasecampBundle)
 
-Symfony2 bundle around the basecamp-php client.
+Symfony2 bundle around the basecamp-php client. It provides an easy way to integrate the new Basecamp API in your project.
 
 Installation
 ------------
